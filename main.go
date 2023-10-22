@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"rsc.io/quote"
+)
 
 func main(){
 	fmt.Print("Hello world");
@@ -16,4 +20,5 @@ func main(){
 	const hero="Tony Stark";
 	fmt.Printf("%v said i am inevitable\n",villain)//%v represents it is special placeholder for variable which is declared later after comma
 	fmt.Printf("%v said i am Iron man\n",hero)
+	    fmt.Println(quote.Go())
 }
