@@ -1,6 +1,15 @@
 package main
 
+import "fmt"
+
 func main() {
-	// var card string="A plain card"
-	card:="A plain card"
+	card := newCard()
+	fmt.Println(card)
 }
+func newCard() string {
+	return "A Plain Card"
+}
+
+// func newCard() int {
+// 	return 1
+// }
