@@ -38,3 +38,4 @@ func (d deck) toString() string {
 func (d deck) saveToFile(name string) error {
 	return ioutil.WriteFile(name, []byte(d.toString()), 0666)
 }
+
