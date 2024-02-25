@@ -27,7 +27,7 @@ import (
 		fmt.Println("i am ---- ",villain);
 		fmt.Println("----------------------------");
 		const hero="Tony Stark";
-		fmt.Printf("%v said i am inevitable\n",villain)//%v represents it is special placeholder for variable which is declared later after comma
+		fmt.Printf("%v escape chars\n",villain)later after comma
 		fmt.Printf("%v said i am Iron man\n",hero)
 			fmt.Println(quote.Go())
 	}
